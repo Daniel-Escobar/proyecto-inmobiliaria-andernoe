@@ -129,3 +129,17 @@ main {
 .title-tree {
     color: var(--verde-agua);
 }
+
+
+/* Seccion beneficios */
+
+.main-advantage-detail{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--warm-black);
+}
+
+.advantage-cards--container {
+    width: 100%;
+}
