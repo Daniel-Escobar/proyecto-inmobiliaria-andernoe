@@ -132,12 +132,48 @@ main {
 
 
 /* Seccion beneficios */
-
 .main-advantage-detail{
+    position: relative;
     width: 100%;
     min-width: 320px;
     height: auto;
+    padding: 20px 10px;
     background-color: var(--warm-black);
+}
+
+.advantage-detail--logo-home {
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background-image: url("./assets/icons/casa-del-arbol.png");
+    background-size: cover;
+}
+
+.advantage-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.advantage-detail--title h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    color: var(--just-white);
+}
+
+.advantage-detail--title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+    margin-bottom: 30px;
 }
 
 .advantage-cards--container {
