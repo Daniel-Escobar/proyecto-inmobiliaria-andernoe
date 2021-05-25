@@ -74,7 +74,7 @@ main {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: var(--warm-black);
+    color: var(--color-primario);
     margin-bottom: 30px;
 }
 
@@ -84,4 +84,48 @@ main {
     line-height: 1.8rem;
     color: #757575;
     margin-bottom: 30px;
+}
+
+.main-services-detail {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+
+.service-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    background-color: var(--just-white);
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.service--card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.title-one {
+    color: #1A9AF7;
+}
+
+.title-two {
+    color: #FF9536;
+}
+
+.title-tree {
+    color: var(--verde-agua);
 }
