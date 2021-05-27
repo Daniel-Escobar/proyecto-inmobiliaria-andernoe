@@ -213,3 +213,15 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
+
+
+
+/* Seccion de Grupo de vendedores */
+.img-group-sellers-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/imgs/bitcoinbaby.jpg");
+    background-size: cover;
+    background-position: center;
+}
