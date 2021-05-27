@@ -256,7 +256,10 @@ main {
     width: 100%;
     min-width: 288px;
     max-width: 400px;
+<<<<<<< HEAD
+=======
     height: auto;
+>>>>>>> 48e7fc7ced7c9184409bd477796659bd5463cade
     min-height: 150px;
     margin: 15px auto;
     padding: 15px;
@@ -289,4 +292,16 @@ main {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+
+
+
+/* Seccion de Grupo de vendedores */
+.img-group-sellers-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/imgs/bitcoinbaby.jpg");
+    background-size: cover;
+    background-position: center;
 }
