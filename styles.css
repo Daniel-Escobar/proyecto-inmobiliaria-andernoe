@@ -233,3 +233,73 @@ main {
     line-height: 2.6rem;
     color: var(--just-white);
 }
+
+
+/* Seccion de proyectos */
+.main-projects-container{
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    padding-bottom: 70px;
+    background-color: #E5E5E5;
+}
+
+.project--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.project--title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    padding-top: 50px;
+}
+
+.project--title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+    margin-top: 25px;
+}
+
+.projects-container--card {
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.recomended {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    top: -15px;
+    left: calc(50% - 55px);
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #F7931A;
+    color: var(--just-white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+}
+
+.project-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
