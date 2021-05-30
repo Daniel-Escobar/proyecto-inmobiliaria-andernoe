@@ -303,3 +303,63 @@ main {
     line-height: 1.8rem;
     color: black;
 }
+
+.project-card--price {   
+    padding: 8px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.2rem;
+    color: black;
+}
+
+.project-card--price span {
+    position: absolute;
+    left: 20px;
+    top: 65px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.project-card--advantage {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Inter";
+    line-height: 1.4rem;
+    color: #757575;
+}
+
+.project-card--location {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Inter";
+    line-height: 1.4rem;
+    color: #757575;
+}
+
+.project-card--clima {
+    padding-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Inter";
+    line-height: 1.4rem;
+    color: #757575;
+}
+.asterisco {
+    color: red;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+.project-card--ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 15px;
+    background-color: var(--off-white);
+    border: 2px solid #F7931A;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
