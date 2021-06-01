@@ -38,7 +38,7 @@ html {
 }
 /*EMPIEZA LA SECCION FOOTER*/
 footer {
-  margin-top: 55px;
+  margin-top: 25px;
   display: flex;
   width: 100%;
   height: 150px;
@@ -50,19 +50,19 @@ footer {
   min-width: 320px;
   height: auto;
   padding: 20px 10px;
-  /* border-style: inset; */
+
   box-shadow: 2px 2px 5px var(--verde-agua);
 }
 
 .footer-cabecera {
   position: absolute;
-  padding: 5px;
-  font-size: 2.8rem;
+
+  font-size: 2rem;
   font-weight: 500;
-  /* width: 150px;
-  height: 80; */
+  width: 50%;
+  height: 20%;
   color: var(--verde-agua);
-  top: -25px;
+  top: -15px;
   align-items: center;
   text-align: center;
   background-color: var(--verde-footer);
@@ -79,8 +79,8 @@ footer section {
 }
 
 footer section img {
-  margin-top: 20px;
-  width: 25%;
+  margin-top: 10px;
+  width: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,10 +89,11 @@ footer .right img {
   text-align: center;
 }
 footer .left ul {
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: bold;
   line-height: 1.8rem;
   list-style: none;
+  text-align: center;
 }
 .left li {
   margin: 10px 0;
@@ -102,11 +103,10 @@ footer .left ul {
   color: var(--verde-agua);
 }
 .footer--title {
-  width: 90%;
+  width: 100%;
   min-width: 288px;
   height: auto;
   margin: 0 auto;
-
   text-align: center;
 }
 
@@ -121,12 +121,12 @@ footer .left ul {
 .pie h2 {
   margin-top: 7px;
   margin-bottom: 15px;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   line-height: 2.2rem;
 }
 .pie p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.8rem;
   font-style: italic;
