@@ -56,7 +56,7 @@ footer .right img {
   text-align: center;
 }
 footer .left ul {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.8rem;
   list-style: none;
@@ -104,12 +104,15 @@ footer .left ul {
     width: 95%;
   }
   footer .left ul {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 }
 @media screen and (min-width: 600px) {
   footer section img {
     width: 55%;
+  }
+  footer .left ul {
+    font-size: 2rem;
   }
 }
 
