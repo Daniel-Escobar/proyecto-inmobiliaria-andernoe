@@ -11,27 +11,84 @@
     font-family: 'Inter', sans-serif; 
 */
 :root {
-    /*Variables de Color  */
-    --color-primario:#182752;
-    --verde-claro:#7bb374;
-    --verde-agua:#2f4747;
-    --soft-orange: #FFE9D5;
-    --secondary-blue:#1A9AF7;
-    --soft-blue:#E7F5FF;
-    --warm-black:#201E1C;
-    --warm-black-1:#282623;
-    --grey:#BABABA;
-    --off-white:#FAF8F7;
-    --just-white:#FFFFFF;
+  /*Variables de Color  */
+  --color-primario: #182752;
+  --verde-claro: #7bb374;
+  --verde-agua: #2f4747;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --warm-black-1: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Preguntas frecuentes */
+.main-preguntas {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+.main-preguntas h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  text-align: center;
+}
+
+.pregunta-datail--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.16);
+}
+
+.pregunta-datail--card .plus {
+  padding: 1px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-bottom: -3px;
+  margin-right: 10px;
+  background-image: url("./assets/icons/circulo-plus.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pregunta--card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+.pregunta--card-body {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
