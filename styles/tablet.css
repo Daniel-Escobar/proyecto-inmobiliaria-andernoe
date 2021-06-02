@@ -99,14 +99,14 @@ footer .left ul {
   font-style: italic;
 }
 
-@media screen and (min-width: 160px) {
+/* @media screen and (min-width: 160px) {
   footer section img {
     width: 95%;
   }
   footer .left ul {
     font-size: 2.2rem;
   }
-}
+} */
 @media screen and (min-width: 600px) {
   footer section img {
     width: 55%;
