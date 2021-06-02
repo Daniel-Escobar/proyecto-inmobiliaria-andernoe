@@ -98,16 +98,22 @@ footer .left ul {
   line-height: 1.8rem;
   font-style: italic;
 }
+
 @media screen and (min-width: 160px) {
   footer section img {
-    width: 45%;
+    width: 95%;
   }
   footer .left ul {
     font-size: 1.2rem;
   }
 }
+@media screen and (min-width: 600px) {
+  footer section img {
+    width: 55%;
+  }
+}
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1110px) {
   footer section img {
     width: 35%;
   }
