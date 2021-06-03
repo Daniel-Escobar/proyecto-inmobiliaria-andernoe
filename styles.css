@@ -11,27 +11,107 @@
     font-family: 'Inter', sans-serif; 
 */
 :root {
-    /*Variables de Color  */
-    --color-primario:#182752;
-    --verde-claro:#7bb374;
-    --verde-agua:#2f4747;
-    --soft-orange: #FFE9D5;
-    --secondary-blue:#1A9AF7;
-    --soft-blue:#E7F5FF;
-    --warm-black:#201E1C;
-    --warm-black-1:#282623;
-    --grey:#BABABA;
-    --off-white:#FAF8F7;
-    --just-white:#FFFFFF;
+  /*Variables de Color  */
+  --color-primario: #182752;
+  --verde-claro: #7bb374;
+  --verde-agua: #2f4747;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --warm-black-1: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+/* Seccion de contactos */
+.contacto-section {
+  background: linear-gradient(155deg, #cdd7e9 20%, #5296d6 50%);
+  width: 100%;
+  height: 200px;
+}
+section div a {
+  text-decoration: none;
+}
+.button-container {
+  margin-top: 10px;
+  text-align: center;
+  float: center;
+}
+.contacto-cabecera {
+  margin-top: 15px;
+  font-size: 2.2rem;
+  text-align: center;
+  color: var(--verde-agua);
+}
+.div-whatsapp {
+  text-align: center;
+  margin-top: 25px;
+}
+.div-social {
+  display: flex;
+  margin-top: 25px;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.button-whatsapp {
+  font-size: 1.8rem;
+  padding: 10px;
+  background: linear-gradient(120deg, #418f5f 20%, #067730 50%);
+  color: var(--just-white);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--color-primario);
+}
+
+.whatsapp {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  vertical-align: -6px;
+  background-image: url("./assets/icons/social/whatsapp.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button {
+  width: 12px;
+  height: auto;
+  font-size: 1.8rem;
+  margin: 10px;
+}
+
+.facebook {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  background-image: url("./assets/icons/social/facebook-109862.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.linkedin {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  background-image: url("./assets/icons/social/linkedin-icon-icons.com-65929.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
