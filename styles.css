@@ -125,3 +125,13 @@ section div a {
   background-position: center;
   background-repeat: no-repeat;
 }
+.twitter {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  background-image: url("./assets/icons/social/twitter.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
