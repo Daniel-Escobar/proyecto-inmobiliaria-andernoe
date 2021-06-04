@@ -39,7 +39,7 @@ html {
 .contacto-section {
   background: linear-gradient(155deg, #cdd7e9 20%, #5296d6 50%);
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 section div a {
   text-decoration: none;
@@ -74,8 +74,12 @@ section div a {
   color: var(--just-white);
   border-radius: 10px;
   box-shadow: 0 4px 8px var(--color-primario);
+  transition: all 600ms ease;
 }
-
+.button-whatsapp:hover {
+  transform: translateX(-20px);
+  box-shadow: 0px 30px 15px -16px var(--color-primario);
+}
 .whatsapp {
   display: inline-block;
   width: 25px;
@@ -93,6 +97,12 @@ section div a {
   height: auto;
   font-size: 1.8rem;
   margin: 10px;
+  transition: all 1000ms;
+  /*  box-shadow: 0px 30px 15px -16px var(--color-primario); */
+}
+.button:hover {
+  transform: translateY(-15px);
+  /* box-shadow: 0px 40px 25px -16px var(--color-primario); */
 }
 
 .facebook {
