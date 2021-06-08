@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  width: 330px;
+  height: 50px;
+}
+.whatsapp {
+  content: "Hola mundo";
+}
