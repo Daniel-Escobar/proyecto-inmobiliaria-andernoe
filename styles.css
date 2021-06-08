@@ -134,3 +134,7 @@ footer .left ul {
   line-height: 1.8rem;
   font-style: italic;
 }
+.pie a {
+  text-decoration: none;
+  color: var(--warm-black);
+}
