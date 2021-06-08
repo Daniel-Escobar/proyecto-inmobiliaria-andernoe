@@ -75,13 +75,13 @@ section div a {
   height: 50px;
   padding: 5px;
   border-radius: 10px;
-  background-color: transparent;
+  /* background-color: transparent; */
   color: #fff;
   font-size: 18px;
   overflow: hidden;
   transition: all 0.75s ease;
   margin-bottom: 20px;
-  z-index: 0;
+  z-index: 1;
   font-weight: 700;
   cursor: pointer;
 }
@@ -104,7 +104,8 @@ section div a {
 }
 .button-whatsapp:hover {
   color: #fff;
-  border: 2px solid var(--verde-claro);
+  /* border: 2px solid var(--verde-claro); */
+  border: 2.5px solid var(--just-white);
 }
 .button-whatsapp:hover::before {
   width: 100%;
