@@ -5,6 +5,9 @@
 }
 
 /*EMPIEZA LA SECCION FOOTER*/
+/* .footer {
+  background: linear-gradient(207.8deg, #faf8f7 16.69%, #1a9af7 100%);
+} */
 footer {
   margin-top: 55px;
   display: flex;
@@ -78,7 +81,7 @@ footer .left ul {
 }
 
 .pie {
-  background-color: #cccccc;
+  /* background-color: #cccccc; */
   padding: 15 10 3 10px;
   text-align: right;
   clear: both;
@@ -118,6 +121,6 @@ footer .left ul {
 
 @media screen and (min-width: 1110px) {
   footer section img {
-    width: 35%;
+    width: 30%;
   }
 }
