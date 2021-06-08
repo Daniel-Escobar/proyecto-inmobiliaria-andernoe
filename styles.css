@@ -459,6 +459,7 @@ main {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
 }
+
 /* Seccion de contactos */
 .contacto-section {
   /* background: linear-gradient(155deg, #cdd7e9 20%, #43c7c5 50%); */
@@ -466,24 +467,29 @@ main {
   height: 230px;
   box-shadow: 2px 5px 10px -6px var(--color-primario);
 }
+
 section div a {
   text-decoration: none;
 }
+
 .button-container {
   margin-top: 10px;
   text-align: center;
   float: center;
 }
+
 .contacto-cabecera {
   margin-top: 15px;
   font-size: 2.2rem;
   text-align: center;
 }
+
 .div-whatsapp {
   display: flex;
   justify-content: center;
   margin-top: 15px;
 }
+
 .div-social {
   display: flex;
   width: 100%;
@@ -523,15 +529,18 @@ section div a {
   transition: all 0.75s ease;
   z-index: -1;
 }
+
 .button-whatsapp::before {
   width: 0;
   height: 100%;
 }
+
 .button-whatsapp:hover {
   color: #fff;
   /* border: 2px solid var(--verde-claro); */
   border: 2.5px solid var(--just-white);
 }
+
 .button-whatsapp:hover::before {
   width: 100%;
 }
@@ -547,6 +556,7 @@ section div a {
   overflow: hidden;
   /* transition: all 600ms ease; */
 }
+
 .button-whatsapp:hover {
   transform: translateX(-20px);
   box-shadow: 0px 30px 15px -16px var(--color-primario);
@@ -560,6 +570,7 @@ section div a {
   transition: all 1000ms;
   /*  box-shadow: 0px 30px 15px -16px var(--color-primario); */
 }
+
 .button:hover {
   transform: translateY(-15px);
   /* box-shadow: 0px 40px 25px -16px var(--color-primario); */
@@ -572,6 +583,48 @@ section div a {
   margin-right: 15px;
   vertical-align: -6px;
   background-image: url("./assets/icons/social/whatsapp.svg");
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Preguntas frecuentes */
+.main-preguntas {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+.main-preguntas h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  text-align: center;
+}
+
+.pregunta-datail--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 600px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.16);
+}
+
+.pregunta-datail--card .plus {
+  padding: 1px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-bottom: -3px;
+  margin-right: 10px;
+  background-image: url("./assets/icons/circulo-plus.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -587,6 +640,7 @@ section div a {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .linkedin {
   display: inline-block;
   width: 60px;
@@ -597,6 +651,7 @@ section div a {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .twitter {
   display: inline-block;
   width: 60px;
@@ -606,4 +661,20 @@ section div a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.pregunta--card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.pregunta--card-body {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
