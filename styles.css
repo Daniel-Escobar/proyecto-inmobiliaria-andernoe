@@ -299,4 +299,161 @@ main {
     background-image: url("./assets/imgs/bitcoinbaby.jpg");
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+
+.img-group-sellers-container h2 {
+    padding-top: 65px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+
+/* Seccion de proyectos */
+.main-projects-container{
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    padding-bottom: 70px;
+    background-color: #E5E5E5;
+}
+
+.project--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.project--title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    padding-top: 50px;
+}
+
+.project--title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+    margin-top: 25px;
+}
+
+.projects-container--slider{
+    display: flex;
+    height: 330px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.projects-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 280px;
+    margin: 50px 15px 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.recomended {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    top: -15px;
+    left: calc(50% - 55px);
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #F7931A;
+    color: var(--just-white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+}
+
+.project-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+
+.project-card--price {   
+    padding: 8px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.2rem;
+    color: black;
+}
+
+.project-card--price span {
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 65px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.project-card--advantage {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Inter";
+    line-height: 1.4rem;
+    color: #757575;
+}
+
+.project-card--location {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Inter";
+    line-height: 1.4rem;
+    color: #757575;
+}
+
+.project-card--clima {
+    padding-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Inter";
+    line-height: 1.4rem;
+    color: #757575;
+}
+.asterisco {
+    color: red;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+.project-card--ca {
+    width: 180px;
+    height: 48px;
+    margin-top: 15px;
+    background-color: var(--off-white);
+    border: 2px solid #F7931A;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.project-card--ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets/icons/arrow-right.svg");
+    vertical-align: text-bottom;
 }
