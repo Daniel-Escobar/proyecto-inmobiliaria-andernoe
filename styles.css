@@ -602,7 +602,9 @@ section div a {
   background-color: var(--warm-black);
 }
 .main-preguntas h2 {
-  margin-bottom: 20px;
+  
+  margin-top: 50px;  
+  margin-bottom: 30px;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
