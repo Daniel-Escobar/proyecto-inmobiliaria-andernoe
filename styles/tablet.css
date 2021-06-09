@@ -4,8 +4,8 @@
   padding: 0;
 }
 
-/*EMPIEZA LA SECCION FOOTER*/
 
+/*EMPIEZA LA SECCION FOOTER*/
 .footer-cabecera {
   font-size: 2.2rem;
   top: -25px;
@@ -25,12 +25,15 @@ footer .left ul {
 .footer--title {
   width: 90%;
 }
+
 .pie h2 {
   font-size: 2rem;
 }
+
 .pie p {
   font-size: 1.6rem;
 }
+
 .parrafo {
   font-size: 1.8rem !important;
 }

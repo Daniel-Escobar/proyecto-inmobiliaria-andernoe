@@ -36,6 +36,8 @@ html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
 }
+
+
 /*EMPIEZA LA SECCION FOOTER*/
 /* .footer {
   background: linear-gradient(207.8deg, #faf8f7 16.69%, #1a9af7 100%);
@@ -48,13 +50,13 @@ footer {
   height: 150px;
   /* padding: 10px 10px; */
 }
+
 .footer-section {
   position: relative;
   width: 100%;
   min-width: 320px;
   height: auto;
   padding: 20px 10px;
-
   box-shadow: 2px 2px 5px var(--verde-agua);
 }
 
@@ -89,9 +91,11 @@ footer section img {
   justify-content: center;
   align-items: center;
 }
+
 footer .right img {
   text-align: center;
 }
+
 footer .left ul {
   font-size: 1.6rem;
   font-weight: bold;
@@ -99,13 +103,16 @@ footer .left ul {
   list-style: none;
   text-align: center;
 }
+
 .left li {
   margin: 10px 0;
 }
+
 .left a {
   text-decoration: none;
   color: var(--verde-agua);
 }
+
 .footer--title {
   width: 100%;
   min-width: 288px;
@@ -129,16 +136,19 @@ footer .left ul {
   font-weight: bold;
   line-height: 2.2rem;
 }
+
 .pie p {
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.8rem;
   /* font-style: italic; */
 }
+
 .pie a {
   text-decoration: none;
   color: var(--warm-black);
 }
+
 .parrafo {
   margin-top: 8px;
   font-size: 1.6rem !important;
