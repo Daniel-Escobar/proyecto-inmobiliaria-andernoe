@@ -41,7 +41,8 @@ html {
   background: linear-gradient(207.8deg, #faf8f7 16.69%, #1a9af7 100%);
 } */
 footer {
-  margin-top: 25px;
+  background-color: #e5e5e5;
+  /* margin-top: 25px; */
   display: flex;
   width: 100%;
   height: 150px;
