@@ -59,7 +59,6 @@ footer {
 
 .footer-cabecera {
   position: absolute;
-
   font-size: 2rem;
   font-weight: 500;
   width: 50%;
@@ -71,7 +70,6 @@ footer {
   background-color: var(--verde-footer);
   box-shadow: 2px 2px 5px var(--verde-agua);
   border-radius: 5px;
-  /* left: calc(30% - 20px); */
 }
 
 footer section {
@@ -83,7 +81,9 @@ footer section {
 
 footer section img {
   margin-top: 10px;
-  width: 75%;
+  margin-right: 40px;
+  padding: 15px 0;
+  width: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
