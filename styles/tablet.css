@@ -17,10 +17,18 @@
     justify-content: center;
     overflow-x: unset;
   }
+  .service-detail--card {
+    width: 100%;
+    max-width: 750px;
+  }
 }
 @media screen and (min-width: 1300px) {
   .main-services-detail {
     display: flex;
+  }
+  .service-detail--card {
+    width: 80%;
+    max-width: 400px;
   }
   .pregunta-card--container {
     display: flex;
@@ -35,5 +43,14 @@
     height: 150px;
     margin: 15px auto;
     padding: 10px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .main-services-detail {
+    display: flex;
+  }
+  .service-detail--card {
+    width: 80%;
+    max-width: 500px;
   }
 }
