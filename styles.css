@@ -344,7 +344,7 @@ main {
 .projects-container--slider {
   display: flex;
   /* justify-content: center; */
-  height: 360px;
+  height: 350px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
