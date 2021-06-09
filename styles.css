@@ -32,436 +32,436 @@
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
 }
 
 header {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-width: 320px;
-    height: 350px;
-    text-align: center;
-    /* background: linear-gradient(207.8deg, #1A9AF7 16.69%, #FFE9D5 100%); */
-    /* background: linear-gradient(207.8deg, #7bb374 16.69%, #FFE9D5 100%); */
-    background: linear-gradient(207.8deg, #FAF8F7 16.69%, #1A9AF7 100%);
-
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 350px;
+  text-align: center;
+  /* background: linear-gradient(207.8deg, #1A9AF7 16.69%, #FFE9D5 100%); */
+  /* background: linear-gradient(207.8deg, #7bb374 16.69%, #FFE9D5 100%); */
+  background: linear-gradient(206deg, #faf8f7 45%, #1a9af7 80%);
 }
 
 header img {
-    width: 150px;
-    height: 80px;
-    align-self: center;
-    margin-top: 40px;
+  width: 250px;
+  height: auto;
+  align-self: center;
+  margin-top: 40px;
 }
 
 .header--title-container {
-    width: 90%;
-    min-width: 288px;
-    max-width: 900px;
-    height: 218px;
-    margin-top: 40px;
-    text-align: center;
-    align-self: center;
+  width: 80%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 30px;
+  text-align: center;
+  align-self: center;
 }
 
 .header--title-container h1 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--color-primario);
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--color-primario);
 }
 
 .header--title-container p {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    margin-top: 25px;
-    color: var(--verde-agua);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  margin-top: 25px;
+  color: var(--verde-agua);
 }
 
 .header--title-container .header--button {
-    position: absolute;
-    top: 290px;
-    left: calc(50% - 125px);
-    display: block;
-    margin-top: 35px;
-    padding: 15px;
-    background-color: var(--off-white);
-    width: 250px;
-    height: 48px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--verde-agua);
-    /*Sombras*/
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  position: absolute;
+  top: 290px;
+  left: calc(50% - 125px);
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  background-color: var(--off-white);
+  width: 250px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--verde-agua);
+  /*Sombras*/
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 }
 
 .header--button span {
-    display: inline-block;
-    width: 13px;
-    height: 10px;
-    margin-left: 10px;
-    background-image: url("./assets/icons/vector.svg");
-    background-size: cover;
-    background-position: center;
+  display: inline-block;
+  width: 13px;
+  height: 10px;
+  margin-left: 10px;
+  background-image: url("./assets/icons/vector.svg");
+  background-size: cover;
+  background-position: center;
 }
 /* Estilos de la seccion del Main*/
 
 main {
-    width: 100%;
-    height: auto;
-    background-color: var(--off-white);
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
 }
 
 .main-services-container {
-    width: 100%;
-    height: auto;
-    padding-top: 60px;
-    padding-bottom: 30px;
-    text-align: center;
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .main-services-container--title {
-    width: 90%;
-    min-width: 288px;
-    max-width: 900px;
-    margin: 0 auto;
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.backgroundImg{
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    background-image: url("./assets/icons/services.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.backgroundImg {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-image: url("./assets/icons/services.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-services-container--title h2 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--color-primario);
-    margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--color-primario);
+  margin-bottom: 30px;
 }
 
 .main-services-container--title p {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #757575;
-    margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+  margin-bottom: 30px;
 }
 
 .main-services-detail {
-    width: 100%;
-    min-width: 320px;
-    height: auto;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
 }
 
 .service-detail--card {
-    width: 90%;
-    min-width: 288px;
-    max-width: 400px;
-    height: auto;
-    background-color: var(--just-white);
-    margin: 15px auto;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: auto;
+  background-color: var(--just-white);
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .service--card-title {
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  margin-bottom: 10px;
 }
 
 .service--card-body {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #808080;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
 
 .title-one {
-    color: #1A9AF7;
+  color: #1a9af7;
 }
 
 .title-two {
-    color: #FF9536;
+  color: #ff9536;
 }
 
 .title-tree {
-    color: var(--verde-agua);
+  color: var(--verde-agua);
 }
 
-
 /* Seccion beneficios */
-.main-advantage-detail{
-    position: relative;
-    width: 100%;
-    min-width: 320px;
-    height: auto;
-    padding: 20px 10px;
-    background-color: var(--warm-black);
+.main-advantage-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
 }
 
 .advantage-detail--logo-home {
-    position: absolute;
-    top: -20px;
-    left: calc(50% - 20px);
-    width: 40px;
-    height: 40px;
-    background-image: url("./assets/icons/casa-del-arbol.png");
-    background-size: cover;
+  position: absolute;
+  top: -20px;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  background-image: url("./assets/icons/casa-del-arbol.png");
+  background-size: cover;
 }
 
 .advantage-detail--title {
-    width: 90%;
-    min-width: 288px;
-    height: auto;
-    margin: 0 auto;
-    text-align: center;
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.advantage-detail--title h2{
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    margin-top: 45px;
-    margin-bottom: 25px;
-    color: var(--just-white);
+.advantage-detail--title h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  color: var(--just-white);
 }
 
 .advantage-detail--title p {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #808080;
-    margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+  margin-bottom: 30px;
 }
 
 .advantage-detail--card {
-    width: 100%;
-    min-width: 288px;
-    max-width: 400px;
-    min-height: 150px;
-    margin: 15px auto;
-    padding: 15px;
-    background-color: var(--warm-black-1);
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+  width: 100%;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--warm-black-1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .advantage-detail--card .clock {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin-bottom: 10px;
-    background-image: url("assets/icons/check-circle.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+  background-image: url("assets/icons/check-circle.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .advantage--card-title {
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    color: var(--just-white);
-    margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+  margin-bottom: 10px;
 }
 
 .advantage--card-body {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #808080;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
-
 
 /* Seccion de Grupo de vendedores */
 .img-group-sellers-container {
-    width: 100%;
-    min-width: 320px;
-    height: 50vh;
-    background-image: url("./assets/imgs/bitcoinbaby.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url("./assets/imgs/bitcoinbaby.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
 
 .img-group-sellers-container h2 {
-    padding-top: 65px;
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--just-white);
+  padding-top: 65px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
 }
 
-
 /* Seccion de proyectos */
-.main-projects-container{
-    width: 100%;
-    min-width: 320px;
-    text-align: center;
-    padding-bottom: 50px;
-    background-color: #E5E5E5;
+.main-projects-container {
+  width: 100%;
+  min-width: 320px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  background-color: #e5e5e5;
 }
 
 .project--title {
-    width: 90%;
-    min-width: 288px;
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: 35px;
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 35px;
 }
 
 .project--title h2 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--warm-black);
-    padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+  padding-top: 50px;
 }
 
 .project--title p {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #757575;
-    margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+  margin-top: 25px;
 }
 
-.projects-container--slider{
-    display: flex;
-    height: 360px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+.projects-container--slider {
+  display: flex;
+  /* justify-content: center; */
+  height: 360px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
 }
 
 .projects-container--card {
-    position: relative;
-    scroll-snap-align: center;
-    width: 70%;
-    min-width: 230px;
-    max-width: 300px;
-    height: 280px;
-    margin: 50px 15px 0;
-    padding: 0 15px;
-    background-color: var(--just-white);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 280px;
+  margin: 50px 15px 0;
+  padding: 0 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
 .recomended {
-    position: absolute;
-    width: 120px;
-    height: 30px;
-    top: -15px;
-    left: calc(50% - 55px);
-    padding: 8px;
-    border-radius: 8px;
-    background-color: #F7931A;
-    color: var(--just-white);
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.4rem;
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  top: -15px;
+  left: calc(50% - 55px);
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #f7931a;
+  color: var(--just-white);
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.4rem;
 }
 
 .project-card--title {
-    padding-top: 30px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: black;
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: black;
 }
 
-.project-card--price {   
-    padding: 8px 0;
-    font-size: 5.2rem;
-    font-weight: bold;
-    line-height: 6.2rem;
-    color: black;
+.project-card--price {
+  padding: 8px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 6.2rem;
+  color: black;
 }
 
 .project-card--price span {
-    position: absolute;
-    left: calc(50% - 100px);
-    top: 65px;
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 1.4rem;
+  position: absolute;
+  left: calc(50% - 100px);
+  top: 65px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
 }
 
 .project-card--advantage {
-    font-size: 1.2rem;
-    font-weight: 500;
-    font-family: "Inter";
-    line-height: 1.4rem;
-    color: #757575;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Inter";
+  line-height: 1.4rem;
+  color: #757575;
 }
 
 .project-card--location {
-    font-size: 1.2rem;
-    font-weight: 500;
-    font-family: "Inter";
-    line-height: 1.4rem;
-    color: #757575;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Inter";
+  line-height: 1.4rem;
+  color: #757575;
 }
 
 .project-card--clima {
-    padding-bottom: 8px;
-    font-size: 1.2rem;
-    font-weight: 500;
-    font-family: "Inter";
-    line-height: 1.4rem;
-    color: #757575;
+  padding-bottom: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Inter";
+  line-height: 1.4rem;
+  color: #757575;
 }
 .asterisco {
-    color: red;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.6rem;
+  color: red;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
 }
 
 .project-card--ca {
-    width: 180px;
-    height: 48px;
-    margin-top: 15px;
-    background-color: var(--off-white);
-    border: 2px solid #F7931A;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    font-family: 'DM Sans', sans-serif;
+  width: 180px;
+  height: 48px;
+  margin-top: 15px;
+  background-color: var(--off-white);
+  border: 2px solid #f7931a;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  font-family: "DM Sans", sans-serif;
 }
 
 .project-card--ca span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url("./assets/icons/arrow-right.svg");
-    vertical-align: text-bottom;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets/icons/arrow-right.svg");
+  vertical-align: text-bottom;
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
 }
 
 /* Seccion de contactos */
 .contacto-section {
+  margin-top: 15px;
+  margin-bottom: 25px;
   /* background: linear-gradient(155deg, #cdd7e9 20%, #43c7c5 50%); */
   width: 100%;
   height: 230px;
@@ -502,9 +502,9 @@ section div a {
 .btn {
   position: relative;
   display: block;
-  width: 250px;
+  width: 200px;
   height: 70px;
-  padding: 5px;
+  padding: 0px;
   border-radius: 10px;
   /* background-color: transparent; */
   color: #fff;
@@ -578,13 +578,16 @@ section div a {
 
 .whatsapp {
   display: inline-block;
-  width: 25px;
-  height: 25px;
-  margin-right: 15px;
-  vertical-align: -6px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: -10px;
   background-image: url("./assets/icons/social/whatsapp.svg");
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Preguntas frecuentes */
@@ -607,7 +610,7 @@ section div a {
 
 .pregunta-datail--card {
   width: 90%;
-  min-width: 288px;
+  min-width: 260px;
   max-width: 600px;
   height: 150px;
   margin: 15px auto;
