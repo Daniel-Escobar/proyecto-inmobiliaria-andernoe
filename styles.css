@@ -116,7 +116,7 @@ header img {
 main {
   width: 100%;
   height: auto;
-  background-color: var(--off-white);
+  background-color: #e5e5e5;
 }
 
 .main-services-container {
@@ -313,7 +313,7 @@ main {
   min-width: 320px;
   text-align: center;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 12px;
   background-color: #e5e5e5;
 }
 
@@ -357,7 +357,7 @@ main {
   min-width: 230px;
   max-width: 300px;
   height: 280px;
-  margin: 50px 15px 0;
+  margin: 20px 15px 0;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
@@ -460,11 +460,12 @@ main {
 
 /* Seccion de contactos */
 .contacto-section {
-  margin-top: 15px;
-  margin-bottom: 25px;
+  /* margin-top: 15px; */
+  margin-bottom: 10px;
   /* background: linear-gradient(155deg, #cdd7e9 20%, #43c7c5 50%); */
   width: 100%;
-  height: 230px;
+  height: 250px;
+  background-color: #e5e5e5;
   box-shadow: 2px 5px 10px -6px var(--color-primario);
 }
 
@@ -479,9 +480,10 @@ section div a {
 }
 
 .contacto-cabecera {
-  margin-top: 15px;
-  font-size: 2.2rem;
   text-align: center;
+}
+.contacto-cabecera h2 {
+  font-size: 2.5rem;
 }
 
 .div-whatsapp {
@@ -510,7 +512,7 @@ section div a {
   color: #fff;
   font-size: 1px;
   overflow: hidden;
-  transition: all 0.75s ease;
+  transition: all 0.5s ease;
   margin-bottom: 20px;
   z-index: 1;
   font-weight: 700;
@@ -526,7 +528,7 @@ section div a {
   margin: auto;
   /* background: #006324; */
   background: #000703;
-  transition: all 0.75s ease;
+  transition: all 0.5s ease;
   z-index: -1;
 }
 
@@ -537,8 +539,8 @@ section div a {
 
 .button-whatsapp:hover {
   color: #fff;
-  /* border: 2px solid var(--verde-claro); */
-  border: 2.5px solid var(--just-white);
+  border: 2px solid var(--verde-claro);
+  /* border: 2.5px solid var(--just-white); */
 }
 
 .button-whatsapp:hover::before {
@@ -548,7 +550,7 @@ section div a {
 .button-whatsapp {
   font-size: 1.8rem;
   padding: 10px;
-  background: linear-gradient(120deg, #418f5f 20%, #067730 50%);
+  background: linear-gradient(205deg, #2d874f 20%, #067730 50%);
   color: var(--just-white);
   border-radius: 10px;
   z-index: 0;
@@ -558,7 +560,7 @@ section div a {
 }
 
 .button-whatsapp:hover {
-  transform: translateX(-20px);
+  /* transform: translateX(-20px); */
   box-shadow: 0px 30px 15px -16px var(--color-primario);
 }
 
