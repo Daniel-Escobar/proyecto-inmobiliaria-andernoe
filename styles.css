@@ -132,7 +132,7 @@ footer .left ul {
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.8rem;
-  font-style: italic;
+  /* font-style: italic; */
 }
 .pie a {
   text-decoration: none;
@@ -140,6 +140,5 @@ footer .left ul {
 }
 .parrafo {
   margin-top: 8px;
-  font-style: normal !important;
   font-size: 1.6rem !important;
 }
