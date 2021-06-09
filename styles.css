@@ -138,3 +138,8 @@ footer .left ul {
   text-decoration: none;
   color: var(--warm-black);
 }
+.parrafo {
+  margin-top: 8px;
+  font-style: normal !important;
+  font-size: 1.6rem !important;
+}
