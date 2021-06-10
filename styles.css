@@ -613,9 +613,9 @@ section div a {
 }
 
 .pregunta-datail--card {
-  width: 90%;
-  min-width: 260px;
-  max-width: 600px;
+  width: 100%;
+  min-width: 288px;
+  max-width: 400px;
   height: 150px;
   margin: 15px auto;
   padding: 15px;
