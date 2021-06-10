@@ -263,7 +263,7 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-.advantage-detail--card .clock {
+.advantage-detail--card .card-icon {
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -272,6 +272,22 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.advantage-detail--card .check {
+  background-image: url("assets/icons/check-circle.svg");
+}
+
+.advantage-detail--card .dollar {
+  background-image: url("assets/icons/dollar-sign.svg");
+}
+
+.advantage-detail--card .eye {
+  background-image: url("assets/icons/eye.svg");
+}
+
+.advantage-detail--card .clock {
+  background-image: url("assets/icons/clock.svg");
 }
 
 .advantage--card-title {
@@ -330,7 +346,7 @@ main {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--warm-black);
+  color: var(--color-primario);
   padding-top: 50px;
 }
 
@@ -344,7 +360,7 @@ main {
 
 .projects-container--slider {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   height: 350px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -485,6 +501,7 @@ section div a {
 }
 .contacto-cabecera h2 {
   font-size: 2.5rem;
+  color: var(--color-primario);
 }
 
 .div-whatsapp {
@@ -505,7 +522,7 @@ section div a {
 .btn {
   position: relative;
   display: block;
-  width: 200px;
+  width: 288px;
   height: 70px;
   padding: 0px;
   border-radius: 10px;
@@ -549,8 +566,8 @@ section div a {
 }
 
 .button-whatsapp {
-  font-size: 1.8rem;
-  padding: 10px;
+  font-size: 1.6rem;
+  padding: 20px;
   background: linear-gradient(205deg, #2d874f 20%, #067730 50%);
   color: var(--just-white);
   border-radius: 10px;
@@ -586,7 +603,6 @@ section div a {
   margin-right: 10px;
   vertical-align: -10px;
   background-image: url("./assets/icons/social/whatsapp.svg");
-  font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
   background-size: cover;
   background-position: center;
@@ -616,7 +632,7 @@ section div a {
   width: 100%;
   min-width: 288px;
   max-width: 400px;
-  height: 150px;
+  height: auto;
   margin: 15px auto;
   padding: 15px;
   background-color: var(--warm-black-1);
@@ -674,7 +690,7 @@ section div a {
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
-  line-height: 1.8rem;
+  line-height: 2.2rem;
   color: var(--just-white);
 }
 
