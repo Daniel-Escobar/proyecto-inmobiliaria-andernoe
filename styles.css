@@ -567,7 +567,7 @@ section div a {
 
 .button-whatsapp {
   font-size: 1.6rem;
-  padding: 20px;
+  padding: 15px;
   background: linear-gradient(205deg, #2d874f 20%, #067730 50%);
   color: var(--just-white);
   border-radius: 10px;
