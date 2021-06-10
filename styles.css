@@ -619,7 +619,7 @@ section div a {
   height: 150px;
   margin: 15px auto;
   padding: 15px;
-  background-color: var(--black);
+  background-color: var(--warm-black-1);
   border-radius: 5px;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.16);
 }
